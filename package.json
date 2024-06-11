@@ -1,8 +1,8 @@
 {
-  "name": "SmartContractDapp",
+  "name": "smartvote24044",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://StathisPetridisStudent.github.io/SmartContractDapp",
+  "homepage": "https://StathisPetridisStudent.github.io/smartvote24044",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
