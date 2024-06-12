@@ -15,8 +15,8 @@
     "web3": "^4.9.0"
   },
   "scripts": {
-	"predeploy": "npm run build", 
-	"deploy": "gh-pages -b master -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
