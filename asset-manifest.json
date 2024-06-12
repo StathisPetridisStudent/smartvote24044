@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/smartvote24044/static/css/main.cbc512fe.css",
+    "main.js": "/smartvote24044/static/js/main.b655dc5f.js",
+    "static/js/453.53b11007.chunk.js": "/smartvote24044/static/js/453.53b11007.chunk.js",
+    "static/media/Diego-Maradona.jpg": "/smartvote24044/static/media/Diego-Maradona.630ed24c1219da3afb85.jpg",
+    "static/media/Lionel-Messi.jpg": "/smartvote24044/static/media/Lionel-Messi.68a2695043f36c4ddc81.jpg",
+    "static/media/cristiano-ronaldo.jpg": "/smartvote24044/static/media/cristiano-ronaldo.f4a2c75c89c6bd3a085d.jpg",
+    "index.html": "/smartvote24044/index.html",
+    "main.cbc512fe.css.map": "/smartvote24044/static/css/main.cbc512fe.css.map",
+    "main.b655dc5f.js.map": "/smartvote24044/static/js/main.b655dc5f.js.map",
+    "453.53b11007.chunk.js.map": "/smartvote24044/static/js/453.53b11007.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cbc512fe.css",
+    "static/js/main.b655dc5f.js"
+  ]
+}
