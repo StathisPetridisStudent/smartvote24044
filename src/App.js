@@ -42,7 +42,7 @@ class App extends Component {
       const currentAccount = accounts[0];
 
       const chainId = await window.ethereum.request({ method: 'eth_chainId' });
-      const sepoliaChainId = '0xAA36A7'; // Sepolia Chain ID
+      const sepoliaChainId = '0xaa36a7'; // Sepolia Chain ID
       const ganacheChainId = '0x539'; // Ganache Chain ID
 
       if (chainId !== sepoliaChainId && chainId !== ganacheChainId) {
@@ -247,11 +247,11 @@ class App extends Component {
 
   render() {
     const { manager, manager2, currentAccount, votes, voterVotes, balance, message, voteHistory, historyVisible, winner, isManager, contractDisabled, metamaskError } = this.state;
-  
+
     const buttonStyle = {
       margin: '0 10px' // Adds margin to both left and right of the buttons
     };
-  
+
     if (metamaskError) {
       return (
         <div className="container">
@@ -262,14 +262,14 @@ class App extends Component {
         </div>
       );
     }
-  
+
     return (
       <div className="container">
         <div className="text-center">
           <h2>Scrum Voting for the Best Footballer</h2>
           <h4>Vote for the Greatest soccer player of all time</h4>
         </div>
-  
+
         <div className="row">
           <div className="col-md-6">
             <div className="card">
@@ -289,7 +289,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-  
+
         <div className="row justify-content-center">
           <div className="col-md-6">
             <div className="card">
@@ -300,9 +300,9 @@ class App extends Component {
             </div>
           </div>
         </div>
-  
+
         <hr />
-  
+
         <div className="row">
           {candidates.map(candidate => (
             <div className="col-md-4 mb-3" key={candidate.name}>
@@ -324,9 +324,9 @@ class App extends Component {
             </div>
           ))}
         </div>
-  
+
         <hr />
-  
+
         <div className="row justify-content-center">
           <div className="col-md-4 mb-3 text-center">
             <button className="btn btn-primary btn-block" onClick={this.toggleHistory}>
@@ -334,7 +334,7 @@ class App extends Component {
             </button>
           </div>
         </div>
-  
+
         {historyVisible && (
           <div className="row justify-content-center">
             <div className="col-md-8">
@@ -349,9 +349,9 @@ class App extends Component {
             </div>
           </div>
         )}
-  
+
         <hr />
-  
+
         {isManager && (
           <div className="row justify-content-center">
             <div className="col-md-2 mb-3">
@@ -371,14 +371,13 @@ class App extends Component {
             </div>
           </div>
         )}
-  
+
         <hr />
-  
+
         <h1>{message}</h1>
       </div>
     );
   }
-  
 }
 
 export default App;
